@@ -9,7 +9,7 @@
 | 準備 | `load.sql`、`setup.sql` | Git 連携、ウェアハウス・データベース・テーブルの作成、データのロード |
 | 1 | `part1_cortex_code.ipynb` | CoCo で SQL を説明させる・生成させる・直させる、テストデータと定義書を作らせる |
 | 2 | `part2_snowflake_basics.ipynb` | アダプティブウェアハウス、ゼロコピークローン、SWAP、UNDROP と Time Travel、動的テーブル |
-| 3-1 | `part3_cortex_ai_functions.ipynb` | AI_CLASSIFY・AI_SENTIMENT・AI_EXTRACT・AI_AGG・AI_COMPLETE・AI_SIMILARITY |
+| 3-1 | `part3_1_cortex_ai_functions.ipynb` | AI_CLASSIFY・AI_SENTIMENT・AI_EXTRACT・AI_AGG・AI_COMPLETE・AI_SIMILARITY |
 | 3-2 | `part3_2_pipeline_builder.ipynb`、`pipeline/*.sql` | Pipeline Builder で AI 処理をパイプラインにする |
 | 4 | `part4_app_development.ipynb`、`streamlit/inquiry_app.py` | Dashboards、HTML レポート、Streamlit アプリ |
 | 後片付け | `cleanup.sql` | ハンズオンで作ったオブジェクトの削除 |

@@ -8,7 +8,7 @@
 
 使い方:
     uv run python -m scripts.run_notebook_sql --connection SFSEAPAC-TTAKAHASHI_AWS1 part2_snowflake_basics
-    uv run python -m scripts.run_notebook_sql --connection ... part3_cortex_ai_functions --from "SQL 3-1"
+    uv run python -m scripts.run_notebook_sql --connection ... part3_1_cortex_ai_functions --from "SQL 3-1"
 """
 
 from __future__ import annotations
