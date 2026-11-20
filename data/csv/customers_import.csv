@@ -1,0 +1,81 @@
+import_id,name,email,address,source,true_customer_id
+X001,イノウエ アヤ,aya.inoue67@example.com,宮城県仙台市青葉区７－２３－８,展示会来場者リスト,C0079
+X002,石川 恵,megumi.watanabe13@example.com,世田谷区4-9-6,展示会来場者リスト,C0043
+X003,佐々木　大輔,daisuke.sasaki69@example.co.jp,茨城県つくば市6-3-18,展示会来場者リスト,C0356
+X004,吉田 大輔,daisuke.yoshida21@example.com,大阪府大阪市北区5丁目17番15号,展示会来場者リスト,C0405
+X005,佐々木さくら,SAKURA.SASAKI19@EXAMPLE.COM,千葉県船橋市6-20-16,展示会来場者リスト,C0393
+X006,カトウ マコト,makoto.kato70@example.com,埼玉県さいたま市浦和区７－６－１２,展示会来場者リスト,C0398
+X007,石川 さくら,sakura.takahashi65@example.com,名古屋市中区2-1-3,展示会来場者リスト,C0291
+X008,中村　千尋,chihiro.nakamura12@example.co.jp,石川県金沢市8-18-16,展示会来場者リスト,C0375
+X009,林 七海,nanami.hayashi35@example.com,宮城県仙台市青葉区8丁目6番3号,展示会来場者リスト,C0476
+X010,斎藤直樹,NAOKI.SAITO10@EXAMPLE.COM,大阪府大阪市北区1-5-11,展示会来場者リスト,C0478
+X011,シミズ ケンタ,kenta.shimizu96@example.com,愛知県名古屋市中区２－１９－５,展示会来場者リスト,C0199
+X012,岡田 美咲,misaki.yamamoto41@example.com,世田谷区4-9-12,展示会来場者リスト,C0414
+X013,佐藤　亮,ryo.sato77@example.co.jp,東京都世田谷区4-8-12,展示会来場者リスト,C0434
+X014,吉田 誠,makoto.yoshida44@example.com,東京都世田谷区6丁目7番16号,展示会来場者リスト,C0010
+X015,斎藤誠,MAKOTO.SAITO52@EXAMPLE.COM,沖縄県那覇市2-9-8,展示会来場者リスト,C0304
+X016,ヤマダ アイ,ai.yamada59@example.com,広島県広島市南区４－１６－８,展示会来場者リスト,C0064
+X017,前田 翔太,shota.hayashi97@example.com,福岡市博多区5-25-11,展示会来場者リスト,C0014
+X018,渡辺　愛,ai.watanabe23@example.co.jp,千葉県船橋市7-13-7,展示会来場者リスト,C0071
+X019,斎藤 千尋,chihiro.saito58@example.com,新潟県新潟市中央区3丁目10番2号,展示会来場者リスト,C0234
+X020,吉田悠斗,YUTO.YOSHIDA50@EXAMPLE.COM,東京都世田谷区8-16-10,展示会来場者リスト,C0217
+X021,キムラ ミサキ,misaki.kimura80@example.com,岡山県岡山市北区３－２３－１９,展示会来場者リスト,C0465
+X022,石川 悠斗,yuto.yamaguchi39@example.com,船橋市7-18-16,展示会来場者リスト,C0401
+X023,清水　悠斗,yuto.shimizu80@example.co.jp,福岡県福岡市博多区5-15-17,展示会来場者リスト,C0140
+X024,伊藤 恵,megumi.ito57@example.com,石川県金沢市7丁目3番18号,展示会来場者リスト,C0255
+X025,林健太,KENTA.HAYASHI44@EXAMPLE.COM,神奈川県横浜市港北区4-22-9,展示会来場者リスト,C0037
+X026,イトウ ヒナ,hina.ito59@example.com,北海道札幌市中央区７－１４－８,展示会来場者リスト,C0466
+X027,前田 美咲,misaki.takahashi47@example.com,世田谷区2-11-6,展示会来場者リスト,C0392
+X028,山口　さくら,sakura.yamaguchi87@example.co.jp,新潟県新潟市中央区6-7-7,展示会来場者リスト,C0394
+X029,松本 愛,ai.matsumoto43@example.com,埼玉県さいたま市浦和区1丁目28番10号,展示会来場者リスト,C0446
+X030,山口愛,AI.YAMAGUCHI24@EXAMPLE.COM,愛知県名古屋市中区8-27-12,展示会来場者リスト,C0158
+X031,サイトウ ミサキ,misaki.saito32@example.com,埼玉県さいたま市浦和区３－１９－１４,展示会来場者リスト,C0096
+X032,岡田 結衣,yui.tanaka78@example.com,世田谷区7-19-5,展示会来場者リスト,C0129
+X033,林　七海,nanami.hayashi29@example.co.jp,神奈川県横浜市港北区4-26-5,展示会来場者リスト,C0346
+X034,渡辺 美咲,misaki.watanabe60@example.com,兵庫県神戸市中央区7丁目21番3号,展示会来場者リスト,C0334
+X035,佐藤隆,TAKASHI.SATO46@EXAMPLE.COM,北海道札幌市中央区6-19-10,展示会来場者リスト,C0117
+X036,サイトウ アイ,ai.saito20@example.com,石川県金沢市４－２５－１７,展示会来場者リスト,C0087
+X037,前田 真由美,mayumi.tanaka81@example.com,新潟市中央区3-8-6,展示会来場者リスト,C0042
+X038,佐藤　愛,ai.sato46@example.co.jp,神奈川県横浜市港北区6-15-15,展示会来場者リスト,C0052
+X039,吉田 健太,kenta.yoshida91@example.com,沖縄県那覇市7丁目18番1号,展示会来場者リスト,C0039
+X040,小林大輔,DAISUKE.KOBAYASHI46@EXAMPLE.COM,東京都世田谷区4-28-8,展示会来場者リスト,C0417
+X041,ヤマモト ミサキ,misaki.yamamoto82@example.com,大阪府大阪市北区３－１１－１０,展示会来場者リスト,C0324
+X042,岡田 誠,makoto.watanabe50@example.com,横浜市港北区4-11-13,展示会来場者リスト,C0298
+X043,中村　大輔,daisuke.nakamura66@example.co.jp,京都府京都市左京区1-21-18,展示会来場者リスト,C0026
+X044,伊藤 隆,takashi.ito33@example.com,東京都世田谷区8丁目11番11号,展示会来場者リスト,C0067
+X045,伊藤亮,RYO.ITO70@EXAMPLE.COM,埼玉県さいたま市浦和区3-11-11,展示会来場者リスト,C0224
+X046,マツモト ショウタ,shota.matsumoto25@example.com,岡山県岡山市北区１－１４－７,展示会来場者リスト,C0332
+X047,岡田 彩,aya.yamaguchi69@example.com,横浜市港北区6-24-12,展示会来場者リスト,C0214
+X048,山田　千尋,chihiro.yamada58@example.co.jp,東京都世田谷区4-6-15,展示会来場者リスト,C0391
+X049,木村 愛,ai.kimura90@example.com,福岡県福岡市博多区7丁目3番18号,展示会来場者リスト,C0345
+X050,高橋美咲,MISAKI.TAKAHASHI13@EXAMPLE.COM,熊本県熊本市中央区3-8-5,展示会来場者リスト,C0069
+X051,ヤマモト ナナミ,nanami.yamamoto42@example.com,北海道札幌市中央区３－２１－４,展示会来場者リスト,C0121
+X052,岡田 彩,aya.hayashi78@example.com,京都市左京区2-17-15,展示会来場者リスト,C0249
+X053,井上　浩二,koji.inoue58@example.co.jp,大阪府大阪市北区6-18-12,展示会来場者リスト,C0231
+X054,吉田 直樹,naoki.yoshida51@example.com,東京都世田谷区1丁目22番18号,展示会来場者リスト,C0099
+X055,鈴木大輔,DAISUKE.SUZUKI97@EXAMPLE.COM,岡山県岡山市北区1-6-11,展示会来場者リスト,C0283
+X056,ヤマモト マコト,makoto.yamamoto73@example.com,愛知県名古屋市中区１－２９－４,展示会来場者リスト,C0056
+X057,森 結衣,yui.kato21@example.com,名古屋市中区2-15-6,展示会来場者リスト,C0113
+X058,林　千尋,chihiro.hayashi10@example.co.jp,兵庫県神戸市中央区4-28-14,展示会来場者リスト,C0486
+X059,林 七海,nanami.hayashi16@example.com,兵庫県神戸市中央区1丁目2番4号,展示会来場者リスト,C0439
+X060,伊藤美咲,MISAKI.ITO64@EXAMPLE.COM,東京都世田谷区3-27-9,展示会来場者リスト,C0404
+X061,マツモト アイ,ai.matsumoto93@example.com,愛知県名古屋市中区５－１６－４,展示会来場者リスト,C0128
+X062,前田 拓也,takuya.ito53@example.com,世田谷区6-20-9,展示会来場者リスト,C0004
+X063,加藤　七海,nanami.kato85@example.co.jp,東京都世田谷区4-10-4,展示会来場者リスト,C0314
+X064,斎藤 陽菜,hina.saito67@example.com,愛知県名古屋市中区3丁目16番1号,展示会来場者リスト,C0464
+X065,山田美咲,MISAKI.YAMADA89@EXAMPLE.COM,兵庫県神戸市中央区8-1-1,展示会来場者リスト,C0276
+X066,ナカムラ マコト,makoto.nakamura81@example.com,大阪府大阪市北区５－１８－４,展示会来場者リスト,C0125
+X067,森 恵,megumi.yamamoto95@example.com,熊本市中央区5-13-18,展示会来場者リスト,C0051
+X068,小林　さくら,sakura.kobayashi24@example.co.jp,北海道札幌市中央区6-26-8,展示会来場者リスト,C0135
+X069,井上 さくら,sakura.inoue27@example.com,東京都世田谷区1丁目10番7号,展示会来場者リスト,C0190
+X070,鈴木千尋,CHIHIRO.SUZUKI47@EXAMPLE.COM,福岡県福岡市博多区2-28-1,展示会来場者リスト,C0084
+X071,マツモト ミサキ,misaki.matsumoto68@example.com,東京都世田谷区１－１８－１５,展示会来場者リスト,C0252
+X072,森 浩二,koji.suzuki14@example.com,広島市南区1-25-1,展示会来場者リスト,C0274
+X073,渡辺　愛,ai.watanabe97@example.co.jp,神奈川県横浜市港北区5-7-18,展示会来場者リスト,C0472
+X074,山田 恵,megumi.yamada43@example.com,大阪府大阪市北区8丁目2番6号,展示会来場者リスト,C0408
+X075,佐々木直樹,NAOKI.SASAKI68@EXAMPLE.COM,兵庫県神戸市中央区6-7-9,展示会来場者リスト,C0007
+X076,ヤマダ リョウ,ryo.yamada80@example.com,静岡県浜松市中央区４－２３－８,展示会来場者リスト,C0107
+X077,森 結衣,yui.tanaka65@example.com,船橋市5-24-11,展示会来場者リスト,C0159
+X078,鈴木　健太,kenta.suzuki18@example.co.jp,神奈川県横浜市港北区7-19-2,展示会来場者リスト,C0198
+X079,林 誠,makoto.hayashi50@example.com,兵庫県神戸市中央区1丁目20番3号,展示会来場者リスト,C0112
+X080,中村美咲,MISAKI.NAKAMURA70@EXAMPLE.COM,岡山県岡山市北区6-27-10,展示会来場者リスト,C0410

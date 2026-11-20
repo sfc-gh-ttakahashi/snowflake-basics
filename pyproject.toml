@@ -1,0 +1,16 @@
+[project]
+name = "snowflake-basics"
+version = "0.1.0"
+description = "Snowflake 基礎ハンズオンの合成データ生成スクリプト"
+requires-python = ">=3.11"
+dependencies = [
+    "reportlab>=4.2",
+    "snowflake-connector-python>=3.12",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["scripts/generate/tests"]
+pythonpath = ["."]

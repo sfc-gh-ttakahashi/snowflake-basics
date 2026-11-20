@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+# テキスト生成の途中結果（確定した本文は data/csv/ に入れる）
+scripts/generate/.cache/
