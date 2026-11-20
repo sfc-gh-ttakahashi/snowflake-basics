@@ -86,7 +86,7 @@ Snowflake の `CLONE` は**ゼロコピークローン**と呼ばれ、データ
 | 2-2 | `customers` をクローンして、開発用テーブル `customers_dev` を作成 |
 | 2-3 | `customers_dev` に本番と同じデータが入っていることを確認 |
 
-![IMAGE](./data/slides/part2/zerocopy.png)
+![IMAGE](data/slides/part2/zerocopy.png)
 
 ```sql 2-1
 -- 本番テーブルの会員ランク別の件数
@@ -158,7 +158,7 @@ ORDER BY customers DESC;
 Snowflake には **Time Travel** という仕組みがあり、削除したテーブルも保持期間内（既定は 1 日）であれば `UNDROP` で復旧できます。
 バックアップからのリストアは不要です。
 
-![IMAGE](./data/slides/part2/timetravel.png)
+![IMAGE](data/slides/part2/timetravel.png)
 
 ```sql 4-1
 -- 誤って本番テーブルを削除
@@ -235,8 +235,8 @@ orders + order_items + products ──▶ DT_ORDER_LINES ──▶ DT_MONTHLY_CA
 | 2 | 月 × カテゴリごとに注文数・売上を集計する |
 | 3 | 元データに注文を追加し、2 段とも自動で更新されることを確認する |
 
-![IMAGE](./data/slides/part2/dynamictable01.png)
-![IMAGE](./data/slides/part2/dynamictable02.png)
+![IMAGE](data/slides/part2/dynamictable01.png)
+![IMAGE](data/slides/part2/dynamictable02.png)
 
 ### Step 1 : 注文明細に商品情報を付ける
 
