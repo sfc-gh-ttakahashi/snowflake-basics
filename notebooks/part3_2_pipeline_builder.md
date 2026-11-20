@@ -66,16 +66,16 @@ Part3-2 では、そのうち 4 つの処理を **Pipeline Builder** でつな�
 
 ## 4. 実行に使うウェアハウスを設定する
 
-1. キャンバスの上の **Objects** を選び、**Task graphs** を選んで、作られたタスクグラフを開く
-2. **Task defaults** の **Warehouse** に `AI_HANDSON_WH` を選ぶ
-3. **Desired state** は **Suspended** のままにする（スケジュールでは動かさず、手動で実行する）
+1. キャンバスの上の上にある箱のアイコンである **Objects** を押す
+2. **Task graphs** を選んで、作られたタスクグラフを開く
+3. **Task defaults** の **Warehouse** に `AI_HANDSON_WH` を選ぶ
+4. **Desired state** は **Suspended** にする（スケジュールでは動かさず、手動で実行する）
 
 ## 5. デプロイする
 
 1. キャンバスの右上の **Deploy** を選択する（見えないときは、ワークスペースの下のパネルを閉じる）
 2. DCM プロジェクトがまだないことを知らせる画面が出たら、作成を確定する
 3. **Review planned changes** の画面に、作られるタスクとタスクグラフが表示される。内容を確かめて **Deploy** を選択する
-4. デプロイが終わると、**Deploy** の横に **Deployed Project** が表示される
 
 ## 6. 実行する
 
@@ -85,7 +85,7 @@ Part3-2 では、そのうち 4 つの処理を **Pipeline Builder** でつな�
 2. **Graph** タブを開き、**Run Task Graph** のアイコンを選択する
 3. **Overview** タブで、実行の状況を確かめる（4 つのタスクが終わるまで 1〜2 分かかります）
 
-SQL で実行・確認する場合は、次のセルを使います。
+プレビューのためか、ボタンが表示されないケースもあるようなので、その場合 SQL で実行・確認します。次のセルを使います。
 
 ```sql 6-1
 -- コンテキスト設定
@@ -100,12 +100,12 @@ SHOW TASK GRAPHS IN SCHEMA AI_HANDSON_DB.CRM;
 
 > 6-1 の結果の `name` 列に表示された名前を、次のセルの `<タスクグラフ名>` に入れて実行します。
 
-```text
+```sql 6-2
 -- タスクグラフを実行する（<タスクグラフ名> を書き換えてから実行）
 EXECUTE TASK GRAPH AI_HANDSON_DB.CRM.<タスクグラフ名>;
 ```
 
-```sql 6-2
+```sql 6-3
 -- 実行の結果を確かめる（直近 1 時間に AI_HANDSON_DB.CRM で実行したタスク）
 SELECT name, state, scheduled_time, completed_time, error_message
 FROM TABLE(AI_HANDSON_DB.INFORMATION_SCHEMA.TASK_HISTORY(

@@ -86,7 +86,7 @@ CoCo にやりたいことを日本語で伝えるだけで、**テーブルの�
 
 ### やってみよう
 
-次の空のセルを選択し、CoCo チャットで次のように聞いてみましょう。
+次に、CoCo チャットで次のように聞いてみましょう。
 
 ```
 AI_HANDSON_DB.CRM にあるテーブルを使って、
@@ -105,11 +105,6 @@ AI_HANDSON_DB.CRM にあるテーブルを使って、
 ```
 
 > **ポイント:** テーブル名を指定しなくても、CoCo は `inquiries` と `orders` を見つけ、日付の範囲で結合します。
-
-```sql 2-1
--- ここに CoCo が生成した SQL を入れて実行する
-SELECT 'CoCo が生成した SQL をここに入れてください' AS message;
-```
 
 ---
 ## 3. エラー修正
@@ -145,8 +140,8 @@ ORDER BY sales_amount DESC;
 > | # | 誤りの箇所 | 原因 | 直し方 |
 > |---|---|---|---|
 > | 1 | `i.price` | `order_items` に `price` 列はない。`products` の列 | `p.price * i.quantity` にする |
-> | 2 | `p.product_name` | SELECT にあるのに `GROUP BY` にない | `GROUP BY` に `p.product_name` を加えるか、SELECT から外す |
-> | 3 | `o.product_id` | `orders` に `product_id` 列はない。注文と商品は `order_items` でつながる | `p.product_id = i.product_id` にする |
+> | 2 | `o.product_id` | `orders` に `product_id` 列はない。注文と商品は `order_items` でつながる | `p.product_id = i.product_id` にする |
+> | 3 | `p.product_name` | SELECT にあるのに `GROUP BY` にない | `GROUP BY` に `p.product_name` を加えるか、SELECT から外す |
 
 ---
 ## 4. テストデータ生成
