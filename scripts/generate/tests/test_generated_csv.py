@@ -48,7 +48,7 @@ def test_注文のある問い合わせは本文に注文番号を含む(inquiri
 
 
 def test_注文のない問い合わせは本文に注文番号を含まない(inquiries):
-    stray = [r["inquiry_id"] for r in inquiries if not r["order_id"] and re.search(r"O\d{5}", r["body"])]
+    stray = [r["inquiry_id"] for r in inquiries if not r["order_id"] and re.search(r"ORD-\d{5}", r["body"])]
     assert not stray, stray
 
 

@@ -1,5 +1,6 @@
 """generate_structured の出力が仕様どおりかを確かめるテスト。"""
 
+import re
 from collections import Counter
 
 import pytest
@@ -93,6 +94,11 @@ def test_離反の兆候がある上位会員は直近の接点が減ってい�
     ]
     # 期間は直近 3 か月と、それより前の 9 か月。月あたりで比べる
     assert len(recent) / 3 < (len(earlier) / 9) * 0.5
+
+
+def test_注文番号は数字の0と紛れない形式(data):
+    # 英字 O で始めると、PDF や OCR で数字の 0 と読み違えるため ORD- を付ける
+    assert all(re.fullmatch(r"ORD-\d{5}", r["order_id"]) for r in data["orders"])
 
 
 def test_IDの順番が日時の順番と一致する(data):

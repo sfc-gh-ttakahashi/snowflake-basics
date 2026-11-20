@@ -12,10 +12,10 @@ PRODUCTS = {"P012": "低反発マットレス シングル"}
 
 
 def test_問い合わせのプロンプトに属性が入る():
-    row = {"inquiry_id": "Q0001", "order_id": "O00014", "product_id": "P012",
+    row = {"inquiry_id": "Q0001", "order_id": "ORD-00014", "product_id": "P012",
            "channel": "メール", "topic": "配送", "tone": "強い不満"}
     prompt = build_inquiry_prompt(row, PRODUCTS)
-    for text in ["O00014", "低反発マットレス シングル", "配送", "強い不満", "メール"]:
+    for text in ["ORD-00014", "低反発マットレス シングル", "配送", "強い不満", "メール"]:
         assert text in prompt
 
 
@@ -27,7 +27,7 @@ def test_注文のない問い合わせでは注文番号を書かせない():
 
 
 def test_電話の問い合わせは受付メモの形にする():
-    row = {"inquiry_id": "Q0003", "order_id": "O00001", "product_id": "P012",
+    row = {"inquiry_id": "Q0003", "order_id": "ORD-00001", "product_id": "P012",
            "channel": "電話", "topic": "支払い", "tone": "急ぎ"}
     assert "受付メモ" in build_inquiry_prompt(row, PRODUCTS)
 

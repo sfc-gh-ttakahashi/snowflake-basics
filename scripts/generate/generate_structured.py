@@ -208,7 +208,7 @@ def gen_orders(rng: random.Random, customers: list[dict], products: list[dict]):
             "channel": _weighted(rng, CHANNELS),
             "total_amount": total,
         })
-    mapping = _renumber(orders, "order_id", "ordered_at", "O", 5)
+    mapping = _renumber(orders, "order_id", "ordered_at", "ORD-", 5)
     for it in items:
         it["order_id"] = mapping[it["order_id"]]
     items.sort(key=lambda r: (r["order_id"], r["product_id"]))
