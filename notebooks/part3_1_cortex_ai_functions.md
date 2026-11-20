@@ -26,7 +26,7 @@ USE SCHEMA CRM;
 ---
 ## 1. AI_CLASSIFY — 問い合わせを種別に振り分ける
 
-![AI_CLASSIFY関数](data/slide/AI_CLASSIFY.png)
+![AI_CLASSIFY関数](data/slides/part3/AI_CLASSIFY.png)
 
 カスタマーサポートには、毎日いろいろな問い合わせが届きます。
 問い合わせ（`inquiries` テーブル）の本文を、`AI_CLASSIFY` で 6 つの種別に振り分けます。
@@ -149,7 +149,7 @@ ORDER BY product_name, rating, sentiment;
 ---
 ## 3. AI_EXTRACT — 返品申請書 PDF から項目を取り出す
 
-![AI_EXTRACT関数](data/slide/AI_EXTRACT.png)
+![AI_EXTRACT関数](data/slides/part3/AI_EXTRACT.png)
 
 返品・交換の申請は、PDF の申請書で届きます（ステージ `@DATA_STAGE/data/pdf/` の `return_*.pdf`）。
 `AI_EXTRACT` で、申請書から注文番号・氏名・商品・希望を取り出します。
@@ -240,7 +240,7 @@ GROUP BY p.product_name;
 ---
 ## 5. AI_COMPLETE — 商品仕様書を根拠に返信案を作る
 
-![AI_COMPLETE関数](data/slide/AI_COMPLETE.png)
+![AI_COMPLETE関数](data/slides/part3/AI_COMPLETE.png)
 
 `AI_COMPLETE` は、自由なプロンプトで文章を生成します。テキストだけでなく、**PDF や画像も入力**にできます。
 「低反発マットレス シングル」の商品仕様書（`data/pdf/spec_P012.pdf`）を渡し、配送の問い合わせへの返信案を作らせます。
@@ -278,7 +278,7 @@ FROM target;
 ---
 ## 6. AI_SIMILARITY — 外部リストを会員と名寄せする
 
-![AI_SIMILARITY関数](data/slide/AI_SIMILARITY.png)
+![AI_SIMILARITY関数](data/slides/part3/AI_SIMILARITY.png)
 
 展示会の来場者リスト（`customers_import` テーブル、80 件）を、会員マスタ（`customers` テーブル、500 件）と突き合わせます。
 同じ人物でも、氏名・メール・住所の書き方が違うため、完全一致の JOIN では見つかりません。
